@@ -13,7 +13,6 @@ def listOperation(list, operation: str, element: int):
         return 'Cannot proceed'
     return list
 
-
 operations = {
     1: 'Insert element in the ascending order sorted list',
     2: 'Insert element in the descending order sorted list',
